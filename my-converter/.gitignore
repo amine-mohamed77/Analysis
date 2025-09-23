@@ -1,10 +1,5 @@
-Set-Content -Path ".gitignore" -Value @"
-# Node/PHP common
 /vendor/
 .env
 .DS_Store
-*.log
-/.idea/
-/.vscode/
-composer.lock
-"@
+/.idea
+/.vscode
