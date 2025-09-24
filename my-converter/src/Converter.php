@@ -47,17 +47,3 @@ class Converter implements ConverterInterface
         return $this->number;
     }
 }
-
-
-namespace App;
-
-class Converter implements ConverterInterface{
-    use BitwiseOperationsTrait;
-    private int $number;
-    public function __construct($number) {
-        $this->$number = $number;
-    }
-    public function toDecimal(): string{
-        return string 
-    }
-}
