@@ -1,0 +1,28 @@
+{
+    "A": {
+        "decimal": 7,
+        "binary": "111"
+    },
+    "B": {
+        "decimal": 7,
+        "binary": "111"
+    },
+    "operations": {
+        "AND": {
+            "decimal": 7,
+            "binary": "111"
+        },
+        "OR": {
+            "decimal": 7,
+            "binary": "111"
+        },
+        "XOR": {
+            "decimal": 0,
+            "binary": "0"
+        },
+        "NOT A": {
+            "decimal": -8,
+            "binary": "1111111111111111111111111111111111111111111111111111111111111000"
+        }
+    }
+}
