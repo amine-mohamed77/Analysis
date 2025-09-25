@@ -1,0 +1,8 @@
+{
+    "name": "amin/my-cli-calc",
+    "autoload": { "psr-4": { "App\\": "src/" } },
+    "scripts": {
+        "test": "php bin/calc.php",
+        "save": "php bin/calc.php --json"
+    }
+}
