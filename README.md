@@ -3,6 +3,13 @@
 
 A **small CLI tool** to convert numbers between **decimal ↔ binary ↔ hexadecimal** and to apply **bitwise operations**.
 
+🧮 CLI Calculator
+Mini calculatrice en PHP (CLI) pour convertir des entiers en binaire/hex et appliquer les opérateurs logiques.
+
+🚀 Installation
+git clone <repo>
+cd my-cli-calc
+composer install
 ---
 
 ## 🚀 Features  
