@@ -1,5 +1,5 @@
 # 🔎 Analysis  
-# ⚙️ my-converter  
+# ⚙️ converter  
 
 A **small CLI tool** to convert numbers between **decimal ↔ binary ↔ hexadecimal** and to apply **bitwise operations**.
 
