@@ -11,11 +11,11 @@ try {
 
     $useJson = in_array('--json', $argv);
 
-    // نحدد الأرقام
+    // We specify numbers
     if ($argc >= 3 && !in_array('--json', $argv)) {
         [$a, $b] = array_map('intval', array_slice($argv, 1, 2));
     } else {
-        // قراءة من input.txt
+        // Read from input.txt
         $inputFile = __DIR__ . '/../samples/input.txt';
         if (!file_exists($inputFile)) {
             throw new RuntimeException("Input file does not exist: $inputFile");
